@@ -11,6 +11,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+	        android:name=".Settings"
+	        android:label="@string/settings">
+		</activity>
 		<meta-data android:name="org.openintents.metadata.COMMENTS"
                        android:value="@string/about_comments" />
         <meta-data android:name="org.openintents.metadata.AUTHORS"
@@ -19,7 +23,8 @@
                        android:resource="@array/about_artists" />
         <meta-data android:name="org.openintents.metadata.EMAIL"
                        android:value="@string/about_email" />
-    </application>
+    
+</application>
 
 <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
 <uses-sdk android:minSdkVersion="1" android:targetSdkVersion="8"/>

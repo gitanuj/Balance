@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <EditTextPreference
+                android:name="EditText Preference"
+                android:summary="@string/taptochange"
+                android:title="@string/pre_balance"
+                android:defaultValue="*141#"
+                android:dialogTitle="@string/ussd"
+                android:key="etp1" />
+        <EditTextPreference
+                android:name="EditText Preference"
+                android:summary="Tap to change"
+                android:title="@string/sms"
+                android:defaultValue="*157#"
+                android:dialogTitle="@string/ussd"
+                android:key="etp2" />
+        <EditTextPreference
+                android:name="EditText Preference"
+                android:summary="Tap to change"
+                android:title="@string/min"
+                android:defaultValue="*156#"
+                android:dialogTitle="@string/ussd"
+                android:key="etp3" />
+</PreferenceScreen>
